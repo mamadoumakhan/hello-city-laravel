@@ -10,7 +10,7 @@
       <p>built with &hearts; by makhan traore</p>
       <p>came back to first page <a href="/"></a></p>
        <footer>
-          <p>&copy Copyright {{date('Y')}} <a href="/about-us">About us</a></p>
+          <p>&copy Copyright {{date('Y')}}</p>
        </footer>
     </body>
 </html>
