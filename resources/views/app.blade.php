@@ -4,10 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title> @yield('titre','hello city')</title>
+        <title> @yield('titre',env('APP_NAME'))</title>
     </head>
     <body class="antialiased">
        @yield('content')
+           {{env('APP_NAME')}}
 
        <footer>
           <p>
