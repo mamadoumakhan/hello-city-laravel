@@ -3,5 +3,5 @@
     
       @section('content')
         <p>built with &hearts; by makhan traore</p>
-        <p>came back to first page <a href="/"></a></p>
+        <p>came back to first page <a href="{{route('home')}}"></a></p>
       @endsection
