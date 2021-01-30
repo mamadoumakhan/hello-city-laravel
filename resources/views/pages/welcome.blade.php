@@ -1,5 +1,7 @@
 @extends('app')
-   @section('titre', env('APP_NAME'))
+   @section('titre')
+         {{ env('APP_NAME')}}
+   @endsection
          
    @section('content')
           <h1>welcome to senegal </h1>

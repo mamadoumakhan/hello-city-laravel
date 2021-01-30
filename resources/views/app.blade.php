@@ -4,12 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title> @yield('titre',env('APP_NAME'))</title>
+        <title> @yield('titre',config('app.name'))</title>
     </head>
     <body class="antialiased">
        @yield('content')
-           {{env('APP_NAME')}}
-
+        
+           {{(config('project.slogan'))}}
+ 
        <footer>
           <p>
              &copy Copyright {{date('Y')}} 

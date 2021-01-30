@@ -1,5 +1,5 @@
 @extends('app')
-      @section('titre',' About us | '.env('APP_NAME'))
+      @section('titre',' About us | '.config('app.name'))
     
       @section('content')
         <p>built with &hearts; by makhan traore</p>
